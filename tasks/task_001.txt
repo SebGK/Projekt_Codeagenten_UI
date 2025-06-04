@@ -1,0 +1,19 @@
+# Task ID: 1
+# Title: Setup Monorepo and Development Environment
+# Status: pending
+# Dependencies: None
+# Priority: high
+# Description: Initialize the pnpm-based monorepo with Turborepo, configure Vite for the Preact toolbar, and scaffold the VSCode extension with Node.js 18+ and the VSCode Extension API.
+# Details:
+- Create a new pnpm monorepo using Turborepo.
+- Scaffold the Preact 10.19+ toolbar app with Vite 5+ and Zustand 4.4+ for state management.
+- Scaffold the VSCode extension using Node.js 18+ and VSCode Extension API 1.85+.
+- Setup shared packages for types and utilities.
+- Configure ESLint, Prettier, and SonarQube for code quality.
+- Integrate GitHub Actions for CI/CD.
+- Add Vitest and Testing Library for frontend, @vscode/test-electron for extension tests.
+
+# Test Strategy:
+- Run initial build and test commands for both toolbar and extension.
+- Verify code linting and formatting.
+- Ensure CI/CD pipeline passes on push.

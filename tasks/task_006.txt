@@ -1,0 +1,17 @@
+# Task ID: 6
+# Title: Implement Agent Adapter Pattern for Cursor and Windsurf
+# Status: pending
+# Dependencies: 5
+# Priority: high
+# Description: Create agent adapters for Cursor and Windsurf, abstracting their APIs and supporting connection, context/message sending, response handling, and status monitoring.
+# Details:
+- Implement AgentAdapter interface for Cursor and Windsurf as per PRD.
+- Support connect(), sendContext(), sendMessage(), onResponse(), getStatus().
+- Add automatic agent discovery and status monitoring.
+- Implement message queuing and retry logic.
+- Provide fallback for API changes and error handling.
+
+# Test Strategy:
+- Mock agent APIs for adapter unit tests.
+- Integration tests with real agents (if available).
+- Simulate API changes and verify fallback mechanisms.

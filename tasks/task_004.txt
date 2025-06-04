@@ -1,0 +1,17 @@
+# Task ID: 4
+# Title: Establish SRPC/WebSocket Communication Layer
+# Status: pending
+# Dependencies: 1
+# Priority: high
+# Description: Implement the communication layer between browser toolbar and VSCode extension using Extended SRPC over WebSocket, with JSON serialization and Zod validation.
+# Details:
+- Use ws 8.14+ for WebSocket transport with HTTP fallback.
+- Define SRPC contract based on PRD (thread, message, context sync APIs).
+- Implement JSON serialization and Zod 3.22+ schema validation for all messages.
+- Secure communication with HMAC-SHA256 authentication.
+- Ensure error handling and circuit breaker pattern for reliability.
+
+# Test Strategy:
+- Unit and integration tests for SRPC contract and message validation.
+- Simulate connection loss and recovery.
+- Security tests for authentication and data integrity.

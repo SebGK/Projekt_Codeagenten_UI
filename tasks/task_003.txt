@@ -1,0 +1,19 @@
+# Task ID: 3
+# Title: Develop DOM Element Selection & Context Capture Engine
+# Status: pending
+# Dependencies: 2
+# Priority: high
+# Description: Enable hover-highlighting, click-to-select, multi-selection, and automatic context capture (HTML, CSS, JS, framework metadata, screenshot) in the toolbar.
+# Details:
+- Implement DOM inspection overlay for hover-highlighting and click-to-select using event delegation.
+- Support multi-selection with Ctrl+Click.
+- Capture HTML, computed styles, and JavaScript context for selected elements.
+- Extract framework-specific metadata (React props, Vue data, etc.).
+- Integrate screenshot capture (e.g., html2canvas or browser API).
+- Provide visual feedback for selected elements.
+- Optimize for <100ms selection response, <500ms context capture, <1s screenshot.
+
+# Test Strategy:
+- Automated tests for selection logic and context extraction.
+- Performance profiling for response times.
+- Visual regression tests for feedback and screenshots.

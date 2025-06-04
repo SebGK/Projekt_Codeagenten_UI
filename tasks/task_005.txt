@@ -1,0 +1,17 @@
+# Task ID: 5
+# Title: Build VSCode Extension Core & Thread Management
+# Status: pending
+# Dependencies: 4
+# Priority: high
+# Description: Develop the VSCode extension core, including thread creation, management, persistence, and recovery, following the provided Thread and Message schemas.
+# Details:
+- Implement thread creation, participant management, and message history with sender attribution.
+- Store threads and context history using VSCode Storage API and file system.
+- Support thread persistence and recovery on extension reload.
+- Implement branch/fork functionality for threads.
+- Integrate with the SRPC contract for thread operations.
+
+# Test Strategy:
+- Automated tests for thread CRUD operations and persistence.
+- Manual recovery tests after extension reload.
+- Validate thread schema compliance with Zod.

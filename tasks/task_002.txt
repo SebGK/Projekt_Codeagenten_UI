@@ -1,0 +1,17 @@
+# Task ID: 2
+# Title: Implement Browser Toolbar Core (Preact)
+# Status: pending
+# Dependencies: 1
+# Priority: high
+# Description: Develop the core ThreadBridge toolbar UI as a Preact component library, supporting integration with React, Vue, Angular, and Vanilla JS apps.
+# Details:
+- Build the toolbar as a Preact component with responsive design using CSS3 + PostCSS.
+- Provide NPM package export (@threadbridge/toolbar) with framework-specific wrappers/plugins.
+- Ensure automatic initialization in development mode and hot-reload compatibility.
+- Implement basic toolbar UI skeleton and state management with Zustand.
+- Add support for keyboard navigation and accessibility (WCAG 2.1 AA).
+
+# Test Strategy:
+- Integrate toolbar into sample React, Vue, Angular, and Vanilla JS apps.
+- Use Vitest and Testing Library to verify rendering, responsiveness, and accessibility.
+- Manual test hot-reload and initialization in dev mode.
